@@ -125,4 +125,4 @@ Butuh validasi 1 field doang? `if` aja. Repo ini untuk yang butuh **skala + kece
 
 ---
 
-MIT — copy, modif, jual lagi silakan.
+MIT — pakai aja, gratis.
