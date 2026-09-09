@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Target & Modul */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+
+    /* Output & Emit */
+    "rootDir": "src",
+    "outDir": "dist",
+    "removeComments": true,
+
+    /* Pengaturan Ketat (Strict Mode) */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Interop & Modul Tambahan */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Fitur Penting untuk json-schema-to-ts & Ajv */
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+.pnp/
+.pnp.js
+
+# Build
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage & cache
+coverage/
+.nyc_output/
+.eslintcache
