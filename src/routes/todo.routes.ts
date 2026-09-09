@@ -14,6 +14,9 @@ interface Todo {
   completed: boolean;
 }
 
+// In-memory database for todos
+// In a real application, you would use a proper database instead of an in-memory array.
+// This is just for demonstration purposes. if want to delete the data, clean the array or restart the server.
 const todosDB: Todo[] = [];
 
 export async function todoRoutes(fastify: FastifyInstance) {
